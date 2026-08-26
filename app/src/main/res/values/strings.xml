@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">2026_TresEnRaya</string>
+    <string name="appTitle">Tres en Raya</string>
+    <string name="player">TUrno de Jugador X\n</string>
+    <string name="Restart">Reiniciar Juego</string>
+</resources>

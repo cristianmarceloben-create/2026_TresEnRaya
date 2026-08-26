@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/TXVTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/appTitle"
+        android:textSize="@dimen/textSizeTitle"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/marginTop" />
+
+    <GridLayout
+        android:id="@+id/GRLTablero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TXVTitle"
+        android:layout_marginTop="@dimen/marginTop"
+        android:layout_centerHorizontal="true"
+        android:columnCount="3"
+        android:rowCount="3"
+        android:alignmentMode="alignMargins">
+
+        <Button
+            android:id="@+id/BTN00"
+            android:layout_width="@dimen/buttonWidth"
+            android:layout_height="@dimen/buttonHeight"
+            android:layout_margin="@dimen/buttonMargin"/>
+        <Button
+            android:id="@+id/BTN00"
+            android:layout_width="@dimen/buttonWidth"
+            android:layout_height="@dimen/buttonHeight"
+            android:layout_margin="@dimen/buttonMargin"/>
+        <Button
+            android:id="@+id/BTN00"
+            android:layout_width="@dimen/buttonWidth"
+            android:layout_height="@dimen/buttonHeight"
+            android:layout_margin="@dimen/buttonMargin"/>
+        <Button
+            android:id="@+id/BTN00"
+            android:layout_width="@dimen/buttonWidth"
+            android:layout_height="@dimen/buttonHeight"
+            android:layout_margin="@dimen/buttonMargin"/>
+        <Button
+            android:id="@+id/BTN00"
+            android:layout_width="@dimen/buttonWidth"
+            android:layout_height="@dimen/buttonHeight"
+            android:layout_margin="@dimen/buttonMargin"/>
+        <Button
+            android:id="@+id/BTN00"
+            android:layout_width="@dimen/buttonWidth"
+            android:layout_height="@dimen/buttonHeight"
+            android:layout_margin="@dimen/buttonMargin"/>
+        <Button
+            android:id="@+id/BTN00"
+            android:layout_width="@dimen/buttonWidth"
+            android:layout_height="@dimen/buttonHeight"
+            android:layout_margin="@dimen/buttonMargin"/>
+        <Button
+            android:id="@+id/BTN00"
+            android:layout_width="@dimen/buttonWidth"
+            android:layout_height="@dimen/buttonHeight"
+            android:layout_margin="@dimen/buttonMargin"/>
+        <Button
+            android:id="@+id/BTN00"
+            android:layout_width="@dimen/buttonWidth"
+            android:layout_height="@dimen/buttonHeight"
+            android:layout_margin="@dimen/buttonMargin"/>
+
+    </GridLayout>
+    <TextView
+        android:id="@+id/TXVPlayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/GRLTablero"
+        android:text="@string/player"
+        android:textSize="@dimen/textSizeNormal"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/marginTop" />
+    <Button
+        android:id="@+id/BTNRestart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TXVPlayer"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Restart"
+        android:layout_marginTop="@dimen/marginTop"
+        android:textSize="@dimen/textSizeNormal"/>
+</RelativeLayout>
