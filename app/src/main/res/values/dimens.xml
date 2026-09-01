@@ -6,4 +6,5 @@
     <dimen name="buttonHeight">100sp</dimen>
     <dimen name="buttonMargin">5sp</dimen>
     <dimen name="textSizeNormal">20sp</dimen>
+    <dimen name="buttonTextSize">50sp</dimen>
 </resources>
